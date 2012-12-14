@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2012-12-14 17:36:44 +0000</string>
+	<string>2012-12-14 22:34:37 +0000</string>
 	<key>Modifier</key>
 	<string>Jeremy Cole</string>
 	<key>NotesVisible</key>
@@ -1557,7 +1557,7 @@ space 0}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs96 \cf0 InnoDB Overview}</string>
+\f0\fs96 \cf0 High-level Overview}</string>
 						<key>VerticalPad</key>
 						<integer>2</integer>
 					</dict>
@@ -1855,7 +1855,7 @@ System}</string>
 			<key>RowSpacing</key>
 			<real>36</real>
 			<key>SheetTitle</key>
-			<string>InnoDB Overview</string>
+			<string>High-level Overview</string>
 			<key>UniqueID</key>
 			<integer>21</integer>
 			<key>VPages</key>
@@ -2010,7 +2010,7 @@ Non-leaf pages contain the minimum key of the child page and the child page numb
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs96 \cf0 InnoDB B+Tree Structure}</string>
+\f0\fs96 \cf0 B+Tree Structure}</string>
 						<key>VerticalPad</key>
 						<integer>2</integer>
 					</dict>
@@ -5534,7 +5534,117 @@ B}</string>
 			<array>
 				<dict>
 					<key>Bounds</key>
-					<string>{{342, 126.00000381469727}, {261, 21}}</string>
+					<string>{{90.000001907348633, 633.00000500679016}, {81.000007629394531, 21}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FitText</key>
+					<string>Vertical</string>
+					<key>Flow</key>
+					<string>Resize</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Font</key>
+						<string>SourceCodePro-Regular</string>
+						<key>Size</key>
+						<real>13</real>
+					</dict>
+					<key>ID</key>
+					<integer>311</integer>
+					<key>Rotation</key>
+					<real>270</real>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Pad</key>
+						<integer>2</integer>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fnil\fcharset0 SourceCodePro-Regular;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
+
+\f0\fs26 \cf0 A.ibd}</string>
+						<key>VerticalPad</key>
+						<integer>2</integer>
+					</dict>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{46.6904296875, 304.69043231010437}, {125.619140625, 21}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FitText</key>
+					<string>Vertical</string>
+					<key>Flow</key>
+					<string>Resize</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Font</key>
+						<string>SourceCodePro-Regular</string>
+						<key>Size</key>
+						<real>13</real>
+					</dict>
+					<key>ID</key>
+					<integer>310</integer>
+					<key>Rotation</key>
+					<real>270</real>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Pad</key>
+						<integer>2</integer>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fnil\fcharset0 SourceCodePro-Regular;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
+
+\f0\fs26 \cf0 Page 2 (INODE)}</string>
+						<key>VerticalPad</key>
+						<integer>2</integer>
+					</dict>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{306, 126.00000381469727}, {396, 21}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -5599,8 +5709,8 @@ B}</string>
 					<integer>271</integer>
 					<key>Points</key>
 					<array>
-						<string>{538.75, 189}</string>
-						<string>{576, 225.00000381469727}</string>
+						<string>{603, 189}</string>
+						<string>{621, 225.00000381469727}</string>
 						<string>{783, 216}</string>
 						<string>{810.00000214576676, 261.00000360600302}</string>
 					</array>
@@ -5642,7 +5752,7 @@ B}</string>
 					<integer>60</integer>
 					<key>Points</key>
 					<array>
-						<string>{404.63020333263398, 189.49997287473843}</string>
+						<string>{405, 189}</string>
 						<string>{405, 225.00000381469727}</string>
 						<string>{432, 234}</string>
 						<string>{441.00001215934498, 261.00000360600302}</string>
@@ -5673,7 +5783,7 @@ B}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{483.5, 145.79999923706055}, {110.5, 43.200000762939453}}</string>
+					<string>{{531, 145.79999923706055}, {144, 43.200000762939453}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -5702,13 +5812,13 @@ B}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs28 \cf0 Internal\
-Inode}</string>
+\f0\fs28 \cf0 Internal Inode\
+(fseg_id=3)}</string>
 					</dict>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{351, 145.79999923706055}, {107.24999043193202, 43.200000762939453}}</string>
+					<string>{{333, 145.79999923706055}, {144, 43.200000762939453}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -5737,13 +5847,13 @@ Inode}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs28 \cf0 Leaf\
-Inode}</string>
+\f0\fs28 \cf0 Leaf Inode\
+(fseg_id=2)}</string>
 					</dict>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{342.75000956806798, 126}, {260.24999043193202, 72}}</string>
+					<string>{{306, 126}, {396, 72}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -6893,7 +7003,7 @@ Inode}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{756, 259.5}, {108, 17.999996185302734}}</string>
+					<string>{{756, 261.00000381469727}, {108, 35.999996185302734}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -6935,7 +7045,8 @@ Inode}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs26 \cf0 Inode 6}</string>
+\f0\fs26 \cf0 Inode 6\
+(fseg_id=3)}</string>
 						<key>VerticalPad</key>
 						<integer>2</integer>
 					</dict>
@@ -7019,7 +7130,7 @@ Inode}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs26 \cf0 Inode 5}</string>
+\f0\fs26 \cf0 Inode 5 (fseg_id=2)}</string>
 						<key>VerticalPad</key>
 						<integer>2</integer>
 					</dict>
@@ -7195,7 +7306,7 @@ Inode}</string>
 					<array>
 						<string>{540.36857702515965, 354.33786110017081}</string>
 						<string>{576, 387.00000578297374}</string>
-						<string>{846, 414}</string>
+						<string>{837, 414}</string>
 						<string>{846.00000071525562, 513}</string>
 					</array>
 					<key>Style</key>
@@ -7696,7 +7807,7 @@ XDES}</string>
 					<array>
 						<string>{179.99999999999983, 531}</string>
 						<string>{207, 567.00000381469727}</string>
-						<string>{270, 585}</string>
+						<string>{279, 576}</string>
 						<string>{292.50000590085858, 603}</string>
 					</array>
 					<key>Style</key>
@@ -8324,7 +8435,7 @@ Page \uc0\u8805 64\
 					<array>
 						<string>{378.14367396672918, 354.47891188602779}</string>
 						<string>{396.00000381469727, 414}</string>
-						<string>{549, 423}</string>
+						<string>{567, 423}</string>
 						<string>{594.00000071525562, 513.00001525878906}</string>
 					</array>
 					<key>Style</key>
@@ -8632,7 +8743,7 @@ Used = 2}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs26 \cf0 Free}</string>
+\f0\fs26 \cf0 Free List}</string>
 						<key>VerticalPad</key>
 						<integer>2</integer>
 					</dict>
@@ -8716,7 +8827,7 @@ Used = 2}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs26 \cf0 Not Full}</string>
+\f0\fs26 \cf0 Not Full List}</string>
 						<key>VerticalPad</key>
 						<integer>2</integer>
 					</dict>
@@ -8927,7 +9038,7 @@ XDES}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs96 \cf0 Inode/Segment/Extent Structure}</string>
+\f0\fs96 \cf0 Index File Segment Structure}</string>
 						<key>VerticalPad</key>
 						<integer>2</integer>
 					</dict>
@@ -9082,7 +9193,7 @@ XDES}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs26 \cf0 Full}</string>
+\f0\fs26 \cf0 Full List}</string>
 						<key>VerticalPad</key>
 						<integer>2</integer>
 					</dict>
@@ -9091,7 +9202,7 @@ XDES}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{315, 100.94942092895508}, {315, 21}}</string>
+					<string>{{288, 96.000003814697266}, {432, 21}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -9137,7 +9248,7 @@ XDES}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs26 \cf0 Page 3}</string>
+\f0\fs26 \cf0 Page 3 (INDEX)}</string>
 						<key>VerticalPad</key>
 						<integer>2</integer>
 					</dict>
@@ -9323,7 +9434,7 @@ Descriptors}</string>
 					<array>
 						<string>{305.9131073685532, 354.49239055407344}</string>
 						<string>{297.00000381469727, 405}</string>
-						<string>{198, 432.00001339847324}</string>
+						<string>{216.00000381469727, 423}</string>
 						<string>{216.0000007152556, 513}</string>
 					</array>
 					<key>Style</key>
@@ -9486,7 +9597,7 @@ XDES}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{315, 99}, {315, 108}}</string>
+					<string>{{288, 99}, {432, 108}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -9645,6 +9756,39 @@ XDES}</string>
 							<integer>1</integer>
 						</dict>
 					</dict>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{99, 252}, {774, 126}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>ID</key>
+					<integer>309</integer>
+					<key>Magnets</key>
+					<array>
+						<string>{-0.7396002417658738, -1.1094003915786743}</string>
+						<string>{-0.42163697454146304, -1.2649110555648804}</string>
+						<string>{1.9868210780297442e-08, -1.3333333730697632}</string>
+						<string>{0.42163710648195879, -1.2649110555648804}</string>
+						<string>{0.73960031615695909, -1.1094003915786743}</string>
+						<string>{1.1094003915786703, -0.73960025003154684}</string>
+						<string>{1.2649110555648759, -0.4216368426009538}</string>
+						<string>{1.3333333730697585, 1.5894572413799324e-07}</string>
+						<string>{1.2649110555648759, 0.42163714417925036}</string>
+						<string>{1.1094003915786703, 0.73960034921967122}</string>
+						<string>{0.73960021696883471, 1.1094003915786743}</string>
+						<string>{0.42163699339009758, 1.2649110555648804}</string>
+						<string>{-4.7369517129061591e-15, 1.3333333730697632}</string>
+						<string>{-0.42163733062651426, 1.2649109363555908}</string>
+						<string>{-0.73960021696884271, 1.1094003915786743}</string>
+						<string>{-1.1094003915786783, 0.73960034921967122}</string>
+						<string>{-1.2649110555648848, 0.42163676720637966}</string>
+						<string>{-1.3333333730697678, -6.3578289655197295e-07}</string>
+						<string>{-1.2649109363555953, -0.4216371798373757}</string>
+						<string>{-1.1094005107879679, -0.73960016419084695}</string>
+					</array>
+					<key>Shape</key>
+					<string>Rectangle</string>
 				</dict>
 			</array>
 			<key>GridInfo</key>
@@ -14209,7 +14353,7 @@ Total usable space: 16,338 bytes.}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs36 \cf0 LSN (8)}</string>
+\f0\fs36 \cf0 LSN for last page modification (8)}</string>
 					</dict>
 				</dict>
 				<dict>
@@ -16694,7 +16838,7 @@ Total usable space: 16,338 bytes.}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs36 \cf0 Highest page number (size) (4)}</string>
+\f0\fs36 \cf0 Highest page number in file (size) (4)}</string>
 					</dict>
 				</dict>
 				<dict>
@@ -19169,7 +19313,7 @@ Total usable space: 16,338 bytes.}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs36 \cf0 Not Full N Used (4)}</string>
+\f0\fs36 \cf0 Number of used pages in "NOT_FULL" list (4)}</string>
 					</dict>
 				</dict>
 				<dict>
@@ -21869,7 +22013,7 @@ Top}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs36 \cf0 B+Tree Segment Offset (2)}</string>
+\f0\fs36 \cf0 Internal (non-leaf) List Offset (2)}</string>
 					</dict>
 				</dict>
 				<dict>
@@ -21889,7 +22033,7 @@ Top}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs36 \cf0 B+Tree Segment Page Number (4)}</string>
+\f0\fs36 \cf0 Internal (non-leaf) List Page Number (4)}</string>
 					</dict>
 				</dict>
 				<dict>
@@ -21909,7 +22053,7 @@ Top}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs36 \cf0 B+Tree Segment Space ID (4)}</string>
+\f0\fs36 \cf0 Internal (non-leaf) List Space ID (4)}</string>
 					</dict>
 				</dict>
 				<dict>
@@ -21929,7 +22073,7 @@ Top}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs36 \cf0 Free List Offset (2)}</string>
+\f0\fs36 \cf0 Leaf Pages List Offset (2)}</string>
 					</dict>
 				</dict>
 				<dict>
@@ -22002,7 +22146,7 @@ Top}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs36 \cf0 Free List Page Number (4)}</string>
+\f0\fs36 \cf0 Leaf Pages List Page Number (4)}</string>
 					</dict>
 				</dict>
 				<dict>
@@ -23651,7 +23795,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{37, 354.5}, {62, 20}}</string>
+					<string>{{37, 327.5}, {62, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -23708,7 +23852,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{51, 327.5}, {48, 20}}</string>
+					<string>{{51, 300.5}, {48, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -23765,7 +23909,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{59, 300.5}, {40, 20}}</string>
+					<string>{{59, 273.5}, {40, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -23842,27 +23986,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{108, 99}, {576, 27}}</string>
-					<key>Class</key>
-					<string>ShapedGraphic</string>
-					<key>ID</key>
-					<integer>210</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
-					<key>Text</key>
-					<dict>
-						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
-{\fonttbl\f0\fnil\fcharset0 SourceCodePro-Regular;}
-{\colortbl;\red255\green255\blue255;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
-
-\f0\fs36 \cf0 Nullable field bitmap (1 bit per nullable field)}</string>
-					</dict>
-				</dict>
-				<dict>
-					<key>Bounds</key>
-					<string>{{73, 117}, {26, 20}}</string>
+					<string>{{73, 90}, {26, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -23919,7 +24043,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{73, 165}, {26, 20}}</string>
+					<string>{{73, 138}, {26, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -23976,7 +24100,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{108, 342}, {576, 27}}</string>
+					<string>{{108, 315}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -23996,7 +24120,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{108, 315}, {576, 27}}</string>
+					<string>{{108, 288}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24016,7 +24140,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{108, 288}, {576, 27}}</string>
+					<string>{{108, 261}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24036,7 +24160,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{73, 273.5}, {26, 20}}</string>
+					<string>{{73, 246.5}, {26, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -24093,7 +24217,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{87, 246.5}, {12, 20}}</string>
+					<string>{{87, 219.5}, {12, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -24150,7 +24274,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{108, 261}, {576, 27}}</string>
+					<string>{{108, 234}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24170,7 +24294,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{108, 234}, {576, 27}}</string>
+					<string>{{108, 207}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24190,7 +24314,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{108, 207}, {576, 27}}</string>
+					<string>{{108, 180}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24210,7 +24334,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{108, 180}, {576, 27}}</string>
+					<string>{{108, 153}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24230,7 +24354,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{108, 153}, {576, 27}}</string>
+					<string>{{108, 126}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24250,7 +24374,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{108, 126}, {576, 27}}</string>
+					<string>{{108, 99}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24270,7 +24394,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{73, 220}, {26, 20}}</string>
+					<string>{{73, 193}, {26, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -24327,7 +24451,7 @@ Leaf Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{108, 72}, {576, 297}}</string>
+					<string>{{108, 72}, {576, 270}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24491,7 +24615,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{58, 300.5}, {40, 20}}</string>
+					<string>{{58, 273.5}, {40, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -24548,7 +24672,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{107, 72}, {576, 27}}</string>
+					<string>{{108, 72}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24568,27 +24692,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{107, 99}, {576, 27}}</string>
-					<key>Class</key>
-					<string>ShapedGraphic</string>
-					<key>ID</key>
-					<integer>210</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
-					<key>Text</key>
-					<dict>
-						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
-{\fonttbl\f0\fnil\fcharset0 SourceCodePro-Regular;}
-{\colortbl;\red255\green255\blue255;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
-
-\f0\fs36 \cf0 Nullable field bitmap (1 bit per nullable field)}</string>
-					</dict>
-				</dict>
-				<dict>
-					<key>Bounds</key>
-					<string>{{72, 117}, {26, 20}}</string>
+					<string>{{72, 90}, {26, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -24645,7 +24749,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{72, 165}, {26, 20}}</string>
+					<string>{{72, 138}, {26, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -24702,7 +24806,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{107, 288}, {576, 27}}</string>
+					<string>{{108, 261}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24722,7 +24826,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{72, 273.5}, {26, 20}}</string>
+					<string>{{72, 246.5}, {26, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -24779,7 +24883,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{86, 246.5}, {12, 20}}</string>
+					<string>{{86, 219.5}, {12, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -24836,7 +24940,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{107, 261}, {576, 27}}</string>
+					<string>{{108, 234}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24856,7 +24960,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{107, 234}, {576, 27}}</string>
+					<string>{{108, 207}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24876,7 +24980,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{107, 207}, {576, 27}}</string>
+					<string>{{108, 180}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24896,7 +25000,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{107, 180}, {576, 27}}</string>
+					<string>{{108, 153}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24916,7 +25020,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{107, 153}, {576, 27}}</string>
+					<string>{{108, 126}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24936,7 +25040,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{107, 126}, {576, 27}}</string>
+					<string>{{108, 99}, {576, 27}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24956,7 +25060,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{72, 220}, {26, 20}}</string>
+					<string>{{72, 193}, {26, 20}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -25013,7 +25117,7 @@ Node Pages}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{107, 72}, {576, 243}}</string>
+					<string>{{108, 72}, {576, 216}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -25537,7 +25641,7 @@ Leaf Pages}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs36 \cf0 Secondary Key Min. Key on Child Page (k)}</string>
+\f0\fs36 \cf0 Secondary Key Fields (k)}</string>
 					</dict>
 				</dict>
 				<dict>
@@ -26539,11 +26643,9 @@ Node Pages}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>11</integer>
+		<integer>2</integer>
 		<key>ExpandedCanvases</key>
 		<array/>
-		<key>FitInWindow</key>
-		<true/>
 		<key>Frame</key>
 		<string>{{100, 140}, {1183, 854}}</string>
 		<key>ListView</key>
@@ -26653,7 +26755,7 @@ Node Pages}</string>
 				<real>1</real>
 			</array>
 			<array>
-				<string>InnoDB Overview</string>
+				<string>High-level Overview</string>
 				<real>1</real>
 				<real>1</real>
 			</array>
