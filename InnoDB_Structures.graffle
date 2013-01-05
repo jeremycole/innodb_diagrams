@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-01-05 05:02:27 +0000</string>
+	<string>2013-01-05 08:11:45 +0000</string>
 	<key>Modifier</key>
 	<string>Jeremy Cole</string>
 	<key>NotesVisible</key>
@@ -11646,7 +11646,7 @@ B}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {936, 733}}</string>
+				<string>{{0, 0}, {971, 779}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -11670,7 +11670,7 @@ B}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{936, 733}</string>
+			<string>{971, 779}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -15990,11 +15990,11 @@ XDES}</string>
 			<key>RowSpacing</key>
 			<real>36</real>
 			<key>SheetTitle</key>
-			<string>Inode Structure</string>
+			<string>Index File Segment Structure</string>
 			<key>UniqueID</key>
 			<integer>25</integer>
 			<key>VPages</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>ActiveLayerIndex</key>
@@ -19115,7 +19115,7 @@ XDES}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {971, 779}}</string>
+				<string>{{0, 0}, {678, 733}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -19139,7 +19139,7 @@ XDES}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{971, 779}</string>
+			<string>{678, 733}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -19691,7 +19691,7 @@ XDES}</string>
 			<key>UniqueID</key>
 			<integer>24</integer>
 			<key>VPages</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>ActiveLayerIndex</key>
@@ -32913,11 +32913,9 @@ Node Pages}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>12</integer>
+		<integer>4</integer>
 		<key>ExpandedCanvases</key>
 		<array/>
-		<key>FitInWindow</key>
-		<true/>
 		<key>Frame</key>
 		<string>{{85, 136}, {1180, 872}}</string>
 		<key>ListView</key>
@@ -33047,7 +33045,7 @@ Node Pages}</string>
 				<real>1</real>
 			</array>
 			<array>
-				<string>Inode Structure</string>
+				<string>Index File Segment Structure</string>
 				<real>1</real>
 				<real>1.5</real>
 			</array>
